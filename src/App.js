@@ -1,5 +1,5 @@
 import { Nav } from './nav';
-import { Main } from '/components';
+import { Main } from './components';
 import NavProvider from './context/NavContext';
 import './App.css';
 
