@@ -9,11 +9,16 @@ function App() {
 		<div className='appContainer'>
 
 			<NavProvider>
-				<Nav />
-				<Sidebar/>
-				<Main />
+				<div className="sidebar">
+					<Sidebar/>
+				</div>
+				<div>
+					<Nav />
+					<Main />
+				</div>
+
 			</NavProvider>
-			
+
 		</div>
 	);
 }
