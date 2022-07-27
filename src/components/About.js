@@ -1,21 +1,29 @@
-import React from 'react'
+
+
+import React from 'react';
 import { useNav } from '../customHooks/useNav';
 import './Components.css';
 
 const About = () => {
-  const aboutRef = useNav('Home');
-  return(
-    <section ref={aboutRef} id='aboutContainer'>
-      <img
-        src='https://images.wallpaperscraft.com/image/single/moss_grass_tree_stump_wood_106893_1280x720.jpg'
-        alt='moss background'
-      />
-      <div>
-        <h3>ABOUT ME</h3>
-        <p>Welcome to my portfolio! Please Hire Me also I'm NOT DESPERATE</p>
-      </div>
-    </section>
-  );
+	// useNav takes in a navLinkId and returns a ref
+	// this ref is used to register the navLinkId that's
+	// currently in view, and apply activeClass styling
+	// to the corresponding nav childElement
+
+	const aboutRef = useNav('About');
+
+	return (
+		<section ref={aboutRef} id='aboutContainer'>
+			<img
+				src='https://source.unsplash.com/random/600x600/?nature,water'
+				alt='unsplash-img'
+			/>
+			<div>
+				<h3>ABOUT</h3>
+				<p>This is the about section</p>
+			</div>
+		</section>
+	);
 };
 
 export default About;
