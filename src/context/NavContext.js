@@ -6,7 +6,7 @@ const NavProvider = ({ children }) => {
 
   const providerValue = {
     activeNavLinkId,
-    setActiveNavLinkIdm
+    setActiveNavLinkId
   };
 
   return(
