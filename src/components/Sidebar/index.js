@@ -1,7 +1,5 @@
 import './index.scss';
-import {Link, NavLink} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faHome, faUser, faEnvelope, faFolder} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
   <div className="nav-bar">
