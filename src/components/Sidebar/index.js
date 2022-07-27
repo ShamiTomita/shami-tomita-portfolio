@@ -12,7 +12,7 @@ const Sidebar = () => (
         target="_blank"
         rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#D4D4D4" />
+          <FontAwesomeIcon icon={faLinkedin} color="#D4D4D4" className="icon" />
         </a>
       </li>
       <li>
@@ -21,7 +21,7 @@ const Sidebar = () => (
          target="_blank"
          rel="noreferrer"
          >
-          <FontAwesomeIcon icon={faGithub} color="#D4D4D4" />
+          <FontAwesomeIcon icon={faGithub} color="#D4D4D4" className="icon"/>
         </a>
       </li>
     </ul>
