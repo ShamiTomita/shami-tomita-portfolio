@@ -1,6 +1,5 @@
 .ticker{
-  width:100%;
-  top:100px;
+
 }
 section {
   position: relative;
@@ -9,7 +8,7 @@ section {
   justify-content: center;
   height: 100vh;
   float:right;
-  width:95%;
+  width:92%;
   border-bottom: 1px solid lightgrey;
 }
 

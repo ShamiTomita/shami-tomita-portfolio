@@ -14,6 +14,7 @@ const Home = () => {
           gradientColor={[162, 171, 106]}
           direction="left"
           speed={80}
+          className="ticker"
         >
           Hola! こんにちは! Hello! Hola! こんにちは! Hello! Hola! こんにちは! Hello!
         </Marquee>
