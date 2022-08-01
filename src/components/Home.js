@@ -7,17 +7,24 @@ const Home = () => {
   const homeRef = useNav('Home');
   return(
     <section ref={homeRef} id='homeContainer'>
-      
-      <div>
+
+      <div className="home">
+        <Marquee
+          gradient={false}
+          gradientColor={[162, 171, 106]}
+          direction="left"
+          speed={80}
+        >
+          Hola! こんにちは! Hello! Hola! こんにちは! Hello! Hola! こんにちは! Hello!
+        </Marquee>
+        <img className="shami" src="./portfolio_pic.png" alt="picture of shami :)"/>
         <h2>I'm Shami Tomita</h2>
         <h3>Fullstack Dev | Pastry Chef | Music Lover | Cat Parent</h3>
         <p>Welcome to my portfolio! Please Hire Me also I'm DESPERATE</p>
       </div>
-      <img className="shami" src="./portfolio_pic.png" alt=""/>
-      <img
-        src='https://images.wallpaperscraft.com/image/single/moss_grass_tree_stump_wood_106893_1280x720.jpg'
-        alt='moss background'
-      />
+
+
+
 
     </section>
   );

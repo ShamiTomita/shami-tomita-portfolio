@@ -3,6 +3,7 @@
   top:100px;
 }
 section {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,10 +26,18 @@ section div{
 section img{
   width: 50%;
 }
+.home{
+  align-self: center;
+  height: 80%;
+}
+
+#homeContainer{
+
+}
 .shami{
   width:20%;
   border-radius: 100%;
-  position: absolute;
+  position: relative;
 
 }
 section div {
