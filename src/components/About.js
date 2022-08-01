@@ -14,13 +14,17 @@ const About = () => {
 
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
-			<img
-				src='https://source.unsplash.com/random/600x600/?nature,water'
-				alt='unsplash-img'
-			/>
 			<div>
 				<h3>ABOUT</h3>
-				<p>This is the about section</p>
+				<h4>Born in Mexico City, Raised in Texas, Educated in NYC</h4>
+				<p>*Graduated from NYU in 2017 with a Bachelor of Arts in Music and Game Design</p>
+				<p>*Worked as a Line Cook for Xian Famous Foods and an Assistant Pastry Chef @ Ps. & Co</p>
+				<p>*Completed the Flatiorn School's Software Engineering Bootcamp</p>
+				<p></p>
+				<img
+					src='./cakes.jpg'
+					alt='unsplash-img'
+				/>
 			</div>
 		</section>
 	);
