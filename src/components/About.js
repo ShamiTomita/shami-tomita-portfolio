@@ -12,10 +12,6 @@ const About = () => {
 
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
-			<div className="aboutPhoto">
-				<img src="./nyu.png" alt="NYU Logo"/>
-				<img src="./XFF.png" alt="Xian Famous Foods Logo"/>
-			</div>
 			<div className="about center">
 				<div className="about blurb">
 					<h3>ABOUT</h3>
@@ -32,9 +28,35 @@ const About = () => {
 					/>
 				</div>
 			</div>
-			<div className="aboutPhoto">
-				<img src="./psco.png" alt="Pure Sweets and Company Logo" />
-				<img src="./Flatiron-School.png" alt="The Flatiron School Logo" />
+			<div className="about-photo">
+				<div>
+					<div className="container">
+						<img src="./nyu.png" alt="NYU Logo"/>
+						<div className="overlay">
+							<div className="text">NYU</div>
+						</div>
+					</div>
+					<div className="container">
+						<img src="./psco.png" alt="Pure Sweets and Company Logo" />
+						<div className="overlay">
+							<div className="text">Pure Sweets</div>
+						</div>
+					</div>
+						<div className="container">
+								<img src="./flatironschool.png" alt="The Flatiron School Logo" />
+								<div className="overlay">
+									<div className="text">Flatiron</div>
+								</div>
+						</div>
+					<div className="container">
+						<img src="./XFF.png" alt="Xian Famous Foods Logo"/>
+						<div className="overlay">
+							<div className="text">XFF</div>
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 		</section>
 	);
