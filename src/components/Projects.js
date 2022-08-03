@@ -14,13 +14,29 @@ const About = () => {
 
 	return (
 		<section ref={projectRef} id='projectContainer'>
-			<img
-				src='https://source.unsplash.com/random/600x600/?nature,water'
-				alt='unsplash-img'
-			/>
-			<div>
-				<h3>Projects</h3>
-				<p>This is the project section</p>
+			<div className="project-header">
+				<h1>My Projects:</h1>
+			</div>
+			<div class="projects">
+				<div class="project1">
+					<div>
+						<h3>One Page News</h3>
+						<img src="./OPN.png" alt="" />
+					</div>
+					<div>
+						<p>A Single Page Application using plain JavaScript and a Ruby on Rails Backed</p>
+					</div>
+				</div>
+
+				<div class="project2">
+					<div>
+						<h3>OBH Entertainment</h3>
+						<img src="./OBH.png" alt=""/>
+					</div>
+					<div>
+						<p>A Rails-Redux Entertainment Platform with a Rails Backend</p>
+					</div>
+				</div>
 			</div>
 		</section>
 	);
