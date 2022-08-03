@@ -59,3 +59,8 @@ section div {
 		max-width: 100vw;
 	}
 }
+.cakes{
+  width:100%;
+  position: absolute;
+  bottom: 10px;
+}
