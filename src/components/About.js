@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { useNav } from '../customHooks/useNav';
 import './Components.css';
