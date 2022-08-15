@@ -1,0 +1,38 @@
+[
+  {
+    "id":1,
+    "name":"About Me",
+    "desc":"Born in CDMX, Raised in SATX, Educated in NYC",
+    "desc2":"I love creating new recipes as well as new programs! I'm always curious, always intrigued by something",
+    "img1":"../recent-sham.png",
+    "img2":"../baby-sham.JPG",
+    "img3":"../shami-jos.JPG"
+  },
+  {
+    "id":2,
+    "name":"Education",
+    "desc":"Studied Music and Game Design @ NYU 2017",
+    "desc2":"Software Enginnering @ Flatiron School 2022",
+    "img1":"../lapietra.jpg",
+    "img2":"../centergame.png",
+    "img3":"../nyusilver.jpg"
+  },
+  {
+    "id":3,
+    "name":"Xian Famous Foods",
+    "desc":"Worked as a Store Associate",
+    "desc2":"I.E. I took orders, worked the line, ordered inventory, trained other associates",
+    "img1":"../xff-noods.jpg",
+    "img2":"../xff-upest.png",
+    "img3":""
+  },
+  {
+    "id":4,
+    "name":"Pure Sweets & Co.",
+    "desc":"Assistant Pastry Chef",
+    "desc2":"Produce bulk of products, trained to cake decorate, work counter, and work the line",
+    "img1":"../pscos.png",
+    "img2":"../pscol.png",
+    "img3":"../pscom.png"
+  }
+]

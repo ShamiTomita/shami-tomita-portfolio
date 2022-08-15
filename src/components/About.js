@@ -13,14 +13,9 @@ const About = () => {
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
 			<div className="about center">
+				<h3>Get To Know Me</h3>
 				<div className="about blurb">
-					<h3>ABOUT</h3>
-					<h4>Born in Mexico City, Raised in Texas, Educated in NYC</h4>
-					<p>*Graduated from NYU in 2017 with a Bachelor of Arts in Music and Game Design</p>
-					<p>*Line Cook for Xian Famous Foods</p>
-					<p>*Assistant Pastry Chef @ Pure Sweets & Co.</p>
-					<p>*Graduate of the Flatiron School's Full Stack Software Engineering Program</p>
-					<p></p>
+					
 				</div>
 			</div>
 
