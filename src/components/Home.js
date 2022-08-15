@@ -57,7 +57,7 @@ const Home = () => {
             <FontAwesomeIcon  className="icon" icon="fab fa-github" />
             <FontAwesomeIcon  className="icon" icon="fab fa-react" />
             <img className="icon" src="./icons8-redux.svg" alt=""/>
-            <FontAwesomeIcon className="icon" icon="fab-brands fa-html5"/>
+            
             <img className="icon" src="./icons8-ruby-programming-language.svg" alt=""/>
             <img className="icon" src="./icons8-ruby-on-rails.svg" alt=""/>
 

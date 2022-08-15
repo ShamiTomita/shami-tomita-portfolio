@@ -1,0 +1,22 @@
+[
+  {"id":1,
+   "title":"Fit Forum",
+   "language":"Ruby/Ruby On Rails",
+   "description":"This rails project is a forum with Weightlifting as its dominant flavor. Users can create accounts, either manually or registering through Google, as well as create their own forums, comment on existing forums, and search and filter all forums. Notable features include filtering different categories, Users having the option to close forums that they have created, and Users having the ability to signup with a Profile Photo.",
+   "demo":"https://youtu.be/HD6oTEpt3xo",
+   "github":"https://github.com/ShamiTomita/forum"
+ },
+ {"id":2,
+  "title":"One Page News",
+  "language":"Ruby/Ruby On Rails & JavaScript",
+  "description":"This single-page-application displays daily news articles covering different categories that Users can toggle between and even pin. In addition, it also provides local weather forecasts so Users can stay up to date on news and their weekly forecasts.",
+  "demo":"https://one-page-news.herokuapp.com/",
+  "github":"https://github.com/ShamiTomita/one-page-news"
+},
+{"id":3,
+ "title":"OBH Entertainment",
+ "language":"Ruby/Ruby On Rails Backend & React/Redux Frontend",
+ "description":"This API is an entertainment platform where Users can make an account, create profiles, and then browse and favorite different movies and show. Ruby On Rails is used as the backend and React-Redux is used for the frontend.",
+ "demo":"https://youtu.be/lLtYkAF6rLI",
+ "github":"https://github.com/ShamiTomita/OBH-React-Final-Project"
+}]
