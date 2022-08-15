@@ -16,9 +16,8 @@ const About = () => {
 	const projectRef = useNav('About');
 	return (
 		<section ref={projectRef} id='projectContainer'>
-			<div>
+			<h1 className="project-header"> My Projects</h1>
 			<ProjectCard projects={projects} />
-			</div>
 		</section>
 	);
 };
