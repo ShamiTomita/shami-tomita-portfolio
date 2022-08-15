@@ -65,6 +65,9 @@ section img{
   float: right;
 
 }
+#homeContainer{
+  background-color: #e8f2e6;
+}
 section .home {
   display:flex;
   flex-direction:row;
