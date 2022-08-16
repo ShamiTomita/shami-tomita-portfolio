@@ -7,45 +7,56 @@ import { useNav } from '../customHooks/useNav';
 import './Components.css';
 
 const About = () => {
-	const [abouts] = useState(aboutData)
-
+	const [abouts] = useState(aboutData);
+	const [current, setCurrent] = useState("about-me");
+	const [markup, setMarkup] = useState("");
 	const aboutRef = useNav('About');
+	let toggle;
+	useEffect(()=>{
+		console.log(current)
+		toggleView(current)
+	}, [current])
+
 
 	const handleClick = (e) => {
 		e.preventDefault()
-		let target = e.currentTarget.id
-		toggle(target)
-	}
-	const toggle = (target) => {
-		debugger
-		let yay = abouts.find(about => about.id === parseInt(target))
-		console.log(aboutCards[target-1].style.display="flex")
-	}
-	const aboutButtons = abouts.map((about)=>(
-			<>
-				<Button  id={about.id} onClick={handleClick}>{about.name}</Button>
-				<br/>
-			</>
-				))
+		setCurrent(e.target.id)
 
-	const aboutCards = abouts.map((about)=>(
-		<div id={about.id} className="about-card" key={about.id}>
+	}
+	const toggleView = (target) => {
+		//should not hit
+		let yay = abouts.find(about => about.id === target)
+		console.log("yay")
+		toggleMarkUp(yay)
+	}
+
+	const toggleMarkUp = (about)=>{
+		let aboutMarkup = <div id={about.id} className="about-card" key={about.id}>
 			<div className="about-text">
 				<h2>{about.name}</h2>
 				<h3>{about.desc}</h3>
 				<h4>{about.desc2}</h4>
 			</div>
 			<div className="about-pics">
-				<img src={about.img1} alt="" classname="about-img1"/>
-				<img src={about.img2} alt="" classname="about-img2"/>
-				<img src={about.img3} alt="" classname="about-img3"/>
+				<img src={about.img1} alt="" className="about-img1"/>
+				<img src={about.img2} alt="" className="about-img2"/>
+				<img src={about.img3} alt="" className="about-img3"/>
 			</div>
-		</div>
-	))
+		</div>;
+		setMarkup(aboutMarkup)
+	}
+	const aboutButtons = abouts.map((about)=>(
+		<>
+			<br/>
+			<Button id={about.id} onClick={handleClick}>{about.name}</Button>
+			<br/>
+		</>
+			))
+
 
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
-			<div className="about center">
+			<div className="about-nav">
 				<h3>Get To Know Me</h3>
 				<div className="about-buttons">
 					<ul>
@@ -53,9 +64,11 @@ const About = () => {
 					</ul>
 				</div>
 			</div>
-			<div className="center">
-				{aboutCards}
+
+			<div className="about-center">
+				{markup}
 			</div>
+
 			<div className="about-photo">
 				<div>
 					<div className="container">
@@ -72,13 +85,13 @@ const About = () => {
 							</div>
 						</a>
 					</div>
-						<div className="container">
-								<img src="./flatironschool.png" alt="The Flatiron School Logo" />
-								<a href="https://flatironschool.com/courses/coding-bootcamp/" target="_blank" rel="noopener noreferrer">
-									<div className="overlay">
-									</div>
-								</a>
-						</div>
+					<div className="container">
+						<img src="./flatironschool.png" alt="The Flatiron School Logo" />
+						<a href="https://flatironschool.com/courses/coding-bootcamp/" target="_blank" rel="noopener noreferrer">
+							<div className="overlay">
+							</div>
+						</a>
+					</div>
 					<div className="container">
 						<img src="./XFF.png" alt="Xian Famous Foods Logo"/>
 						<a href="https://www.xianfoods.com/" target="_blank" rel="noopener noreferrer">

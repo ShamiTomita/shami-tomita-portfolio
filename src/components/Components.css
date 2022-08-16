@@ -90,27 +90,34 @@ section .home {
 section .about{
 display: flex;
 flex-direction: column;
-padding-left:100px;
-align-items: ;
+padding-left:10px;
+text-align:left;
+
 }
-.about-card#\31 {
-  display: none;
+.about-nav{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  top:-100px;
+  width:400px;
 }
-.about-card#\32 {
-  display: none;
+.about-buttons{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.5;
 }
-.about-card#\33 {
-  display: none;
+.about-card{
+  display: flex;
+  flex-grow: 2;
 }
-.about-card#\34 {
-  display: none;
-}
-#\31
+
 .about-photo{
   position: relative;
   display: flex;
   display: column;
-  width: 20%;
+  width: 24%;
+  flex-grow: 1;
 }
 .about-photo img{
 
@@ -145,8 +152,9 @@ align-items: ;
 .about-photo img:hover{
   width: 60%;
 }
-.about center{
-  width: 100%;
+.about-center{
+  width:100%;
+
 }
 
 
