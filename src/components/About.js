@@ -4,6 +4,7 @@ import AboutCard from "./AboutCard"
 import {Button} from 'react-bootstrap'
 import aboutData from "../local-json/about.json"
 import { useNav } from '../customHooks/useNav';
+import Carousel from 'react-bootstrap/Carousel';
 import './Components.css';
 
 const About = () => {
@@ -34,13 +35,50 @@ const About = () => {
 		let aboutMarkup = <div id={about.id} className="about-card" key={about.id}>
 			<div className="about-text">
 				<h2>{about.name}</h2>
-				<h3>{about.desc}</h3>
+				<h4>{about.desc}</h4>
 				<h4>{about.desc2}</h4>
 			</div>
 			<div className="about-pics">
-				<img src={about.img1} alt="" className="about-img1"/>
-				<img src={about.img2} alt="" className="about-img2"/>
-				<img src={about.img3} alt="" className="about-img3"/>
+				<Carousel className="carousel">
+					<Carousel.Item>
+						<img
+							className="d-block w-100"
+							src={about.img1}
+							alt="First slide"
+
+						/>
+						<Carousel.Caption>
+							<h3>First slide label</h3>
+							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item>
+						<img
+							className="d-block w-100"
+							src={about.img2}
+							alt="Second slide"
+						/>
+
+						<Carousel.Caption>
+							<h3>Second slide label</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item>
+						<img
+							className="d-block w-100"
+							src={about.img3}
+							alt="Third slide"
+						/>
+
+						<Carousel.Caption>
+							<h3>Third slide label</h3>
+							<p>
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+							</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+				</Carousel>
 			</div>
 		</div>;
 		setMarkup(aboutMarkup)
@@ -48,7 +86,7 @@ const About = () => {
 	const aboutButtons = abouts.map((about)=>(
 		<>
 			<br/>
-			<Button id={about.id} onClick={handleClick}>{about.name}</Button>
+			<Button className="button" id={about.id} onClick={handleClick}>{about.name}</Button>
 			<br/>
 		</>
 			))
