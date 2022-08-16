@@ -93,7 +93,19 @@ flex-direction: column;
 padding-left:100px;
 align-items: ;
 }
-
+.about-card#\31 {
+  display: none;
+}
+.about-card#\32 {
+  display: none;
+}
+.about-card#\33 {
+  display: none;
+}
+.about-card#\34 {
+  display: none;
+}
+#\31
 .about-photo{
   position: relative;
   display: flex;

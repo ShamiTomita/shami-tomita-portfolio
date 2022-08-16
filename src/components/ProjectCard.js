@@ -1,4 +1,4 @@
-import {Card, Button, Accordion} from 'react-bootstrap'
+import {Card, Accordion} from 'react-bootstrap'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import { faVideo } from '@fortawesome/free-solid-svg-icons'
