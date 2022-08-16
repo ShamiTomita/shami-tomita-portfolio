@@ -32,11 +32,21 @@ const About = () => {
 	}
 
 	const toggleMarkUp = (about)=>{
+
+		const list = about.desc2.map(item=>(
+			<>
+				<li>{item}</li>
+				<br/>
+			</>
+				))
+
 		let aboutMarkup = <div id={about.id} className="about-card" key={about.id}>
 			<div className="about-text">
 				<h2>{about.name}</h2>
 				<h4>{about.desc}</h4>
-				<h4>{about.desc2}</h4>
+				<ul>
+					{list}
+				</ul>
 			</div>
 			<div className="about-pics">
 				<Carousel className="carousel">
@@ -47,9 +57,9 @@ const About = () => {
 							alt="First slide"
 
 						/>
-						<Carousel.Caption>
-							<h3>First slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						<Carousel.Caption className="car-cap">
+							<h3>{about.img1Desc}</h3>
+							<p>{about.img1d}</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
@@ -59,9 +69,9 @@ const About = () => {
 							alt="Second slide"
 						/>
 
-						<Carousel.Caption>
-							<h3>Second slide label</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<Carousel.Caption className="car-cap">
+							<h3>{about.img2Desc}</h3>
+							<p>{about.img2d}</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
@@ -71,11 +81,9 @@ const About = () => {
 							alt="Third slide"
 						/>
 
-						<Carousel.Caption>
-							<h3>Third slide label</h3>
-							<p>
-								Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-							</p>
+						<Carousel.Caption className="car-cap">
+							<h3>{about.img3Desc}</h3>
+							<p>{about.img3d}</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 				</Carousel>
@@ -95,7 +103,7 @@ const About = () => {
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
 			<div className="about-nav">
-				<h3>Get To Know Me</h3>
+				<h3 className="header">Get To Know Me</h3>
 				<div className="about-buttons">
 					<ul>
 						{aboutButtons}

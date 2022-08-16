@@ -1,17 +1,22 @@
 main{
   overflow-x: hidden;
+  font-family: Palatino, URW Palladio L, serif;
 }
+div{
+  vertical-align: top;
+}
+
 .ticker{
 position: absolute;
 overflow: hidden;
-top: 50px;
+top: 100px;
 font-size: 30px;
 
 }
 .bottom{
   position: absolute;
   overflow: hidden;
-  bottom: 120px;
+  bottom: 80px;
 
 }
 .marquee{
@@ -75,55 +80,108 @@ section .home {
   justify-content: center;
   padding: 1em;
 }
+.homeblurb a{
+  color:green;
+  font-style: italic;
+  font-size-adjust: auto;
+  text-decoration: none;
+}
+.homeblurb a:hover{
+  text-decoration: underline;
+}
 .homeblurb h1{
-  font-size: 40px;
+  font-size: 4em;
   padding-left: 5px;
+
 }
 .homeblurb h2{
-  font-size: 30px;
+  font-size: 2.5em;
   padding-left: 10px;
+}
+.homeblurb p{
+  font-size: 1.3em;
 }
 
 
 
 
 section .about{
-display: flex;
+display: inline-block;
 flex-direction: column;
-padding-left:10px;
+padding-left:1em;
 text-align:left;
 
 }
 .about-nav{
-  position:relative;
   display: flex;
+  position:relative;
+
   flex-direction: column;
-  padding-left: 10px;
-  top:-100px;
-  width:400px;
+  left: 1em;
+  top:-10em;
+  width: 30em;
+}
+.header{
+  width:100%;
+  font-size: 2em;
 }
 .about-buttons{
-  display: flex;
+  padding-top: 1em;
+  display: inline-block;
+  left: -10px;
   flex-direction: column;
   flex-grow: 0.5;
 }
+.button{
+  width:13em;
+  background-color: #d1ccb9;
+  border-color: #d1ccb9;
+}
+.button:hover{
+  background-color: #A2AB6A;
+  border-color: #d1ccb9;
+}
+.button:focus{
+  background-color: #A2AB6A;
+  border-color: #d1ccb9;
+}
 .about-card{
   display: flex;
-  flex-grow: 2;
+  width:70em;
+  height:30em;
 }
+
+.about-text{
+  font-size: 1.5em;
+}
+
+
+
 .about-pics{
-  width:800px;
+  display: flex;
+  width:50em;
 
 }
 .about-pics img{
-  height:600px;
-  border-radius: 100px;
+  display: flex;
+  height:40em;
+  border-radius: 1em;
 }
 .carousel{
-  width:100%;
-  border-radius: 100px;
+  width: 30em;
     right:-50px;
 }
+.car-cap{
+  left: 1em;
+  width:28em;
+  background-color: #A2AB6A;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.carousel-indicators{
+  left:-4.5em;
+}
+
 .about-img1{
 
 height:300px;
@@ -153,7 +211,8 @@ width: 105px;
   width:100%;
 }
 .container {
-  padding: 20px;
+  display: flex;
+  padding: 1em;
   position: relative;
   width: 40%;
 }
@@ -194,12 +253,14 @@ width: 105px;
   justify-content: center;
 }
 .project-header{
-  top:40px;
+  display: flex;
+  top:80px;
 position: absolute;
 }
 .project-card{
+  display: flex;
   box-shadow: 2px 2px 5px grey;
-
+  top:50px;
   margin:50px;
   height:650px;
   overflow-y: scroll;
@@ -225,7 +286,11 @@ width: 100%;
 height:250px;
 }
 
-
+.contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 
 @media screen and (max-width: 900px) {

@@ -25,7 +25,7 @@ const ProjectCard = ({projects}) => {
             <Accordion.Header>Features</Accordion.Header>
             <Accordion.Body>
               <Card.Text className="project-description">
-                {project.description}
+                {project.features}
               </Card.Text>
             </Accordion.Body>
           </Accordion.Item>

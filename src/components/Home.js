@@ -39,9 +39,11 @@ const Home = () => {
           </div>
 
           <div className="homeblurb">
-            <h1>I'm Shami Tomita</h1>
+            <h1>Shami Tomita</h1>
+            <br/>
             <h2>Full Stack Dev | Pastry Chef | Cat Parent</h2>
-            <p>Welcome to my portfolio! Please Hire Me also I'm DESPERATE</p>
+            <br/>
+            <p><strong> Contact Me @ <a href="mailto:shamitomita@gmail.com">ShamiTomita@gmail.com</a> | <a href="https://www.linkedin.com/in/shami-tomita-rodrgiuez/">LinkedIn</a> | <a href="github.com/ShamiTomita">Github</a></strong></p>
 
           </div>
         </div>
@@ -57,7 +59,7 @@ const Home = () => {
             <FontAwesomeIcon  className="icon" icon="fab fa-github" />
             <FontAwesomeIcon  className="icon" icon="fab fa-react" />
             <img className="icon" src="./icons8-redux.svg" alt=""/>
-            
+
             <img className="icon" src="./icons8-ruby-programming-language.svg" alt=""/>
             <img className="icon" src="./icons8-ruby-on-rails.svg" alt=""/>
 

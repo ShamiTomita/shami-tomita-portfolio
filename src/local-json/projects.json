@@ -2,7 +2,8 @@
   {"id":1,
    "title":"Fit Forum",
    "language":"Ruby On Rails",
-   "description":"This rails project is a forum with Weightlifting as its dominant flavor. Users can create accounts, either manually or registering through Google, as well as create their own forums, comment on existing forums, and search and filter all forums. Notable features include filtering different categories, Users having the option to close forums that they have created, and Users having the ability to signup with a Profile Photo.",
+   "description":"A Full Stack Ruby On Rails Weightlifting Forum",
+   "features":"Styled with Bootstrap, Searchable Forum Threads, Google OAuth",
    "demo":"https://youtu.be/HD6oTEpt3xo",
    "github":"https://github.com/ShamiTomita/forum",
    "img":"../forum.png"
@@ -10,7 +11,8 @@
  {"id":2,
   "title":"One Page News",
   "language":"Ruby On Rails & JavaScript",
-  "description":"This single-page-application displays daily news articles covering different categories that Users can toggle between and even pin. In addition, it also provides local weather forecasts so Users can stay up to date on news and their weekly forecasts.",
+  "description":"This Single Page Application displays a wide variety of news as well as local weather.",
+  "features":"Taps the NewsAPI and the Open Weather Map's One Call API. Users can browse and select up to 3 articles to 'favorite'",
   "demo":"https://one-page-news.herokuapp.com/",
   "github":"https://github.com/ShamiTomita/one-page-news",
   "img":"../OPN.png"
@@ -18,7 +20,8 @@
 {"id":3,
  "title":"OBH Entertainment",
  "language":"Ruby On Rails & React+Redux",
- "description":"This API is an entertainment platform where Users can make an account, create profiles, and then browse and favorite different movies and show. Ruby On Rails is used as the backend and React-Redux is used for the frontend.",
+ "description":"A mock entertainment platform to browse and favorite a selection of titles",
+ "features":"Account AND Account-specific users, Styled with Bootstrap, Utilizes Redux",
  "demo":"https://youtu.be/lLtYkAF6rLI",
  "github":"https://github.com/ShamiTomita/OBH-React-Final-Project",
  "img":"../OBH.png"
