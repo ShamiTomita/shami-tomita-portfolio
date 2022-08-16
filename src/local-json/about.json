@@ -19,7 +19,7 @@
   {
     "id":"education",
     "name":"Education",
-    "desc":"Music, Game Design, Software Engineering",
+    "desc":"Music & Game Design => Software Engineering",
     "desc2":["I graduated from NYU in 2017 with a major in Music and minor in Game Design", "Courses ranged from understanding the physics of sound, electronic music, and programming for games", "In 2022 I completed the Flatiron School's Software Engineering Bootcamp", "Focusing on Full Stack Development with Ruby On Rails and React.js + Redux", "I created several projects, some are featured below!"],
     "img1":"../lapietra.jpg",
     "img1Desc":"NYU Florence Campus!",
@@ -36,7 +36,7 @@
   {
     "id":"xff",
     "name":"Xian Famous Foods",
-    "desc":"Worked as a Store Associate from 2018-2019",
+    "desc":"Store Associate from 2018-2019",
     "desc2":["I worked my way up from the bottom starting as a cashier until I was a level below my manager", "I interfaced with customers, prepared noodles, salads, and 'burgers' within 10 minutes", "I trained several fellow employees in customer interfacing, line work, inventory ordering, and maintaing store hygiene"],
     "img1":"../xff-noods.jpg",
     "img1Desc":"Biang Biang Noodles",

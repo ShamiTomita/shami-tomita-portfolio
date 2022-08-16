@@ -42,7 +42,7 @@ const About = () => {
 
 		let aboutMarkup = <div id={about.id} className="about-card" key={about.id}>
 			<div className="about-text">
-				<h2>{about.name}</h2>
+				<h2><strong>{about.name}</strong></h2>
 				<h4>{about.desc}</h4>
 				<ul>
 					{list}
@@ -103,7 +103,6 @@ const About = () => {
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
 			<div className="about-nav">
-				<h3 className="header">Get To Know Me</h3>
 				<div className="about-buttons">
 					<ul>
 						{aboutButtons}

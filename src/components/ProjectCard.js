@@ -8,7 +8,7 @@ const ProjectCard = ({projects}) => {
     <Card key={project.id} style={{ width: '18rem' }} className="project-card">
       <Card.Img variant="top" src={project.img} />
       <Card.Body>
-        <Card.Title>{project.title}</Card.Title>
+        <Card.Title><strong>{project.title}</strong></Card.Title>
         <Card.Text>{project.language}</Card.Text>
         <Accordion>
           <Accordion.Item eventKey={project.id}>
