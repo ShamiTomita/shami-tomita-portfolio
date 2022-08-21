@@ -3,24 +3,24 @@
     "id":"about-me",
     "name":"About Me",
     "desc":"Creative, Entrepreneurial, Empathetic",
-    "desc2":["Born in Mexico City, I moved between my birth city, Tokyo, and my hometown San Antonio in my youth","I love cooking, exercise, video games, and keeping up with the news", "I'm always coming up with new ideas. My mind always wanders into the 'how can this be better?' realm frequently"],
+    "desc2":["Born in Mexico City, I moved between my birth city, Tokyo, and my hometown San Antonio in my youth. My heritage has shaped me a lot.","I love cooking, exercise, video games, and keeping up with the news", "I am incredibly curious, creatively motivated, and no stranger to pulling myself up by the bootstraps"],
     "img1":"../recent-sham.png",
     "img1Desc":"Hello!",
-    "img1d":"Full Stack Dev",
+    "img1d":"A Full Stack Pro in the Making!",
 
     "img2":"../baby-sham.JPG",
     "img2Desc":"Lil' Shami",
     "img2d":"World Traveler Troddler",
 
     "img3":"../shami-jos.JPG",
-    "img3Desc":"My husband and Myself!",
+    "img3Desc":"My husband and myself!",
     "img3d":"My husband Josue is one of my biggest supporters <3"
   },
   {
     "id":"education",
     "name":"Education",
-    "desc":"Music & Game Design => Software Engineering",
-    "desc2":["I graduated from NYU in 2017 with a major in Music and minor in Game Design", "Courses ranged from understanding the physics of sound, electronic music, and programming for games", "In 2022 I completed the Flatiron School's Software Engineering Bootcamp", "Focusing on Full Stack Development with Ruby On Rails and React.js + Redux", "I created several projects, some are featured below!"],
+    "desc":"Music & Game Design -> Software Engineering",
+    "desc2":["I graduated from NYU in 2017 with a major in Music and minor in Game Design", "In 2022 I completed the Flatiron School's Software Engineering Bootcamp", "With a focus on Full Stack Development, I gained proficiency in Ruby and JavaScript as well as created several projects using Ruby On Rails and React"],
     "img1":"../lapietra.jpg",
     "img1Desc":"NYU Florence Campus!",
     "img1d":"I spent my first year of undergrand in Italy, Ciao!",
@@ -37,34 +37,34 @@
     "id":"xff",
     "name":"Xian Famous Foods",
     "desc":"Store Associate from 2018-2019",
-    "desc2":["I worked my way up from the bottom starting as a cashier until I was a level below my manager", "I interfaced with customers, prepared noodles, salads, and 'burgers' within 10 minutes", "I trained several fellow employees in customer interfacing, line work, inventory ordering, and maintaing store hygiene"],
+    "desc2":["I worked my way up from the bottom starting as a cashier until I was one of the most senior store members right below my manager", "I interfaced with customers, prepared noodles, salads, and 'burgers' within 10 minutes", "I trained several fellow employees in customer interfacing, line work, inventory ordering, and maintaing store hygiene"],
     "img1":"../xff-noods.jpg",
     "img1Desc":"Biang Biang Noodles",
     "img1d":"I became an expert at hand pulling bian-biang noodles",
 
     "img2":"../xff-upest.jpg",
     "img2Desc":"Xian Upper East Side",
-    "img2d":"My old store",
+    "img2d":"Where I took orders and pulled noodles :)",
 
     "img3":"../spanch.jpg",
     "img3Desc":"How it felt like working @ XFF",
-    "img3d":"Very tough but also very rewarding work!"
+    "img3d":"Tough work makes tough people"
   },
   {
     "id":"psco",
     "name":"Pure Sweets & Co.",
     "desc":"Assistant Pastry Chef since 2019",
-    "desc2":["My thoughtfulness and attention to detail really shined working at this Vegan and Gluten Free Establishment", "I produced the majority of pastry items and even was cross trained to cake decorate as well as work the line.", "Between September of 2020 and May of 2022, I consistently contributed towards 50% of sales", "I have develop several new recipes as well as reimagine existing recipes to improve quality, customer satisfaction, and production costs"],
+    "desc2":["Vegan & Gluten-Free Bakery for allergy sensitive clientele.", "I produced the majority of pastry items and even cross trained to cake decorate for in store sales.", "Between September of 2020 and May of 2022, I consistently contributed towards 50% of sales", "I developed several recipes as well as reimagine existing ones to improve quality, customer satisfaction, and production costs"],
     "img1":"../pscol.png",
     "img1Desc":"My Lavender Blueberry Cake",
     "img1d":"One of the cakes I'm most proud of",
 
     "img2":"../pscos.png",
     "img2Desc":"Custom Santa Cupcakes",
-    "img2d":"Blessed to be given a lot of creative liberty",
+    "img2d":"All Vegan All Gluten-Free All Tasty",
 
     "img3":"../pscom.png",
     "img3Desc":"Slice of Matcha Taro Cake",
-    "img3d":"Another of my signature flavor combinations"
+    "img3d":"One of my signature flavor combinations"
   }
 ]
