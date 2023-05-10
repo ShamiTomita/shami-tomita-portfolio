@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, About, Projects} from './';
+import { Home, About, Projects } from './';
 
 const Main = () => (
   <main>
