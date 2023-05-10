@@ -1,13 +1,13 @@
-[
-  {"id":1,
-   "title":"Fit Forum",
-   "language":"Ruby On Rails",
-   "description":"A Full Stack Ruby On Rails Weightlifting Forum",
-   "features":"Styled with Bootstrap, Searchable Forum Threads, Google OAuth",
-   "demo":"https://youtu.be/HD6oTEpt3xo",
-   "github":"https://github.com/ShamiTomita/forum",
-   "img":"../forum.png"
- },
+[{
+    "id": 1,
+    "title": "CASA",
+    "language": "Ruby On Rails",
+    "description": "Ruby For Good's CASA Project",
+    "features": "I overhauled the overall theme, enacted bug fixes, updated the test suite, and implemented stakeholer requests!",
+    "demo": "https://casa-qa.herokuapp.com/",
+    "github": "https://github.com/rubyforgood/casa",
+    "img": "../casa.png"
+  },
  {"id":2,
   "title":"One Page News",
   "language":"Ruby On Rails & JavaScript",
@@ -25,4 +25,15 @@
  "demo":"https://youtu.be/lLtYkAF6rLI",
  "github":"https://github.com/ShamiTomita/OBH-React-Final-Project",
  "img":"../OBH.png"
-}]
+},
+{
+  "id": 4,
+  "title": "Fit Forum",
+  "language": "Ruby On Rails",
+  "description": "A Full Stack Ruby On Rails Weightlifting Forum",
+  "features": "Styled with Bootstrap, Searchable Forum Threads, Google OAuth",
+  "demo": "https://youtu.be/HD6oTEpt3xo",
+  "github": "https://github.com/ShamiTomita/forum",
+  "img": "../forum.png"
+}
+]

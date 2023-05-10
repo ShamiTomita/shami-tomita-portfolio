@@ -2,8 +2,8 @@
   {
     "id":"about-me",
     "name":"About Me",
-    "desc":"Creative, Entrepreneurial, Empathetic",
-    "desc2":["Born in Mexico City, I moved between my birth city, Tokyo, and my hometown San Antonio in my youth. My heritage has shaped me a lot.","I love cooking, exercise, video games, and keeping up with the news", "I am incredibly curious, creatively motivated, and no stranger to pulling myself up by the bootstraps"],
+    "desc":"Creative, Collaborative, Resourceful",
+    "desc2":["Born in Mexico and ping-ponged between SATX and Tokyo as a kid, my heritage has shaped me a lot.","I love cooking, exercise, video games, and keeping up with the news", "I am incredibly curious, creatively motivated, and no stranger to pulling myself up by the bootstraps"],
     "img1":"../recent-sham.png",
     "img1Desc":"Hello!",
     "img1d":"A Full Stack Pro in the Making!",
@@ -66,5 +66,26 @@
     "img3":"../pscom.png",
     "img3Desc":"Slice of Matcha Taro Cake",
     "img3d":"One of my signature flavor combinations"
+  },
+  {
+    "id": "rubyconf",
+    "name": "RubyConf",
+    "desc": "Opportunity Scholar for Ruby Conf 2022",
+    "desc2": [
+      "I was named an Opportunity Scholar for Ruby Conf 2022!",
+      "I had the priviedge of meeting some incredible engineers and companies that utilize Ruby.",
+      "Made great connections and even continue to do weekly pair sessions with my RubyConf Mentor.",
+      "Gave a short, Lightning Talk, on the similarities between vegan, gluten free patisserie and early career coding!"
+    ],
+    "img1": "../rubyconf_1.png",
+    "img1Desc": "My First Lightning Talk!",
+    "img1d": "What do early career engineering and patisserie have in common?",
+    "img2": "../rubyconf_2.png",
+    "img2Desc": "I love the Ruby Community!",
+    "img2d": "Ruby Is Nice, So We Are Nice <3",
+    "img3": "../rubyconf_3.png",
+    "img3Desc": "I was so nervous for my lightning talk!",
+    "img3d": "I came 110% prepared though!"
   }
+
 ]

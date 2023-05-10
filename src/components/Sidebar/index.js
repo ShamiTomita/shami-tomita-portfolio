@@ -6,7 +6,7 @@ const Sidebar = () => (
     <ul>
       <li>
         <a
-        href="https://www.linkedin.com/in/shami-tomita-rodrgiuez/"
+        href="https://www.linkedin.com/in/shami-tomita-rodriguez/"
         target="_blank"
         rel="noreferrer"
         >

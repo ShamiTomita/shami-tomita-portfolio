@@ -64,7 +64,7 @@ section img{
 
 .shami{
   float: left;
-  width:50%;
+  width:40%;
   border-radius: 100%;
   position: relative;
   float: right;
@@ -142,7 +142,7 @@ section .home {
 }
 .about-card{
   display: flex;
-  width:60em;
+  width:80em;
   height:20em;
 }
 
@@ -154,11 +154,12 @@ section .home {
 
 .about-pics{
   display: flex;
-  width:50em;
+  width:60em;
 
 }
 .about-pics img{
   display: flex;
+  width: 100%;
   height:30em;
   border-radius: 1em;
 }
