@@ -9,6 +9,7 @@ div{
 .ticker{
 position: absolute;
 overflow: hidden;
+display: flex;
 top: 3em;
 font-size: 2em;
 
@@ -107,7 +108,9 @@ section .home {
 
 #aboutContainer{
   display: flex;
+  padding-left: 5em;
 }
+
 
 .about-nav{
   margin: 1em;
@@ -142,7 +145,7 @@ section .home {
 }
 .about-card{
   display: flex;
-  width:80em;
+  width:100%;
   height:20em;
 }
 
@@ -150,11 +153,9 @@ section .home {
   font-size: 1.5em;
 }
 
-
-
 .about-pics{
   display: flex;
-  width:60em;
+  width: 100%;
 
 }
 .about-pics img{
@@ -183,17 +184,17 @@ section .home {
 
 .about-img1{
 
-height:300px;
-width: 105px;
+height:5em;
+width: 5em;
 }
 .about-img2{
-  height:300px;
-  width: 105px;
+  height: 5em;
+  width: 5em;
 
 }
 .about-img3{
-  height:300px;
-  width: 105px;
+  height: 5em;
+  width: 5em;
 
 
 }
